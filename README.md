@@ -1,6 +1,10 @@
 # TMS-EEG Analysis Pipeline Setup
 
-This repository contains some code which is an attempt at analyzing TMS-EEG data using MNE-Python.
+This repository contains some code which is an attempt at preprocessing analyzing TMS-EEG data using MNE-Python.
+
+The analysis is available as a jupyter notebook under notebooks. 
+
+The analysis also uses a preprocessing pipeline which employed TESA in Matlab. The preprocessing script is available under Matlab_preproc_scripts. I also provide TMS-EEG data that has been preprocessed with this script. All of the data and paths are set up automatically as long as the directories are named as outlined bellow.
 
 Note that it contains a modified version of the neurone_loader which is used to load the sample data provided in the link bellow.
 
