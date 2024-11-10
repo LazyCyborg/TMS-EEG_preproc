@@ -18,8 +18,9 @@ The sample TMS-EEG data and preprocessed FreeSurfer MRI can be downloaded from:
 
 Download the contents and extract them to the following structure:
 
-TMS-EEG_preproc/data/    # Place TMS1 folder here
-TMS-EEG_preproc/freesurfer_subject/    # Place Freesurfer subject folder here
+   TMS-EEG_preproc/data/    # Place TMS1 folder here
+   
+   TMS-EEG_preproc/freesurfer_subject/    # Place Freesurfer subject folder here
 
 ## Quick Start
 
