@@ -1,0 +1,9 @@
+numpy
+matplotlib
+mne
+mne-icalabel
+scikit-learn
+seaborn
+scipy
+pandas
+lempel_ziv_complexity
