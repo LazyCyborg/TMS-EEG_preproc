@@ -2,6 +2,8 @@
 
 This repository contains some code which is an attempt at analyzing TMS-EEG data using MNE-Python.
 
+Note that it contains a modified version of the neurone_loader which is used to load the sample data provided in the link bellow
+
 ## Prerequisites
 
 - Python 3.8 or higher
@@ -12,7 +14,7 @@ This repository contains some code which is an attempt at analyzing TMS-EEG data
 ## Sample Data
 
 The sample TMS-EEG data and preprocessed FreeSurfer MRI can be downloaded from:
-[TMS-EEG Sample Data](https://drive.google.com/drive/folders/116Qc1Ko-Y8wgshy8g4YLTpxOdp1cgOQW?usp=drive_link)
+[TMS-EEG Sample Data](https://drive.google.com/drive/folders/116Qc1Ko-Y8wgshy8g4YLTpxOdp1cgOQW?usp=sharing)
 
 Download the contents and extract them to the following structure:
 
