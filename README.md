@@ -2,7 +2,7 @@
 
 This repository contains some code which is an attempt at analyzing TMS-EEG data using MNE-Python.
 
-Note that it contains a modified version of the neurone_loader which is used to load the sample data provided in the link bellow
+Note that it contains a modified version of the neurone_loader which is used to load the sample data provided in the link bellow.
 
 ## Prerequisites
 
