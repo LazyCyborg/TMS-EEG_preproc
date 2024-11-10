@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ### Setting Up File Paths
 
-1. The notebook begins with a configuration cell where you need to verify/modify these paths:
+1. The notebook begins with a configuration cell where you can verify/modify these paths:
    ```python
    BASE_DIR = os.path.abspath(os.path.dirname('__file__'))
    DATA_DIR = os.path.join(BASE_DIR, 'data')
