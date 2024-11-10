@@ -16,15 +16,14 @@ The sample TMS-EEG data and preprocessed FreeSurfer MRI can be downloaded from:
 
 Download the contents and extract them to the following structure:
 
-TMS-EEG_preproc/
-├── data/                     # Place TMS1 folder here
-└── freesurfer_subjects/      # Place Freesurfer subject folder here
+TMS-EEG_preproc/data/    # Place TMS1 folder here
+TMS-EEG_preproc/freesurfer_subject/    # Place Freesurfer subject folder here
 
 ## Quick Start
 
 ```bash
 # Clone the repository
-git clone https://github.com/YourUsername/TMS-EEG_preproc.git
+git clone https://github.com/LazyCyborg/TMS-EEG_preproc.git
 cd TMS-EEG_preproc
 
 # Create and activate conda environment
@@ -33,3 +32,13 @@ conda activate tms_eeg
 
 # Install requirements
 pip install -r requirements.txt
+
+```
+
+### Setting Up File Paths
+
+1. The notebook begins with a configuration cell where you need to verify/modify these paths:
+   ```python
+   BASE_DIR = os.path.abspath(os.path.dirname('__file__'))
+   DATA_DIR = os.path.join(BASE_DIR, 'data')
+   FREESURFER_DIR = os.path.join(BASE_DIR, 'freesurfer_subjects')

@@ -1,0 +1,98 @@
+__pycache__/
+.ipynb_checkpoints/
+
+# Large data directories
+data/*
+!data/.gitkeep
+freesurfer_subjects/*
+!freesurfer_subjects/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Virtual environment
+venv/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.vs/
+
+# MNE-specific files
+*.fif
+*.eve
+*.log
+*.pickle
+
+# FreeSurfer specific files
+*.mgz
+*.mgh
+*.nii
+*.nii.gz
+*.gii
+*.surf
+*.curv
+*.label
+*.annot
+
+# EEG specific files
+*.set
+*.fdt
+*.cnt
+*.eeg
+*.vhdr
+*.vmrk
+
+# Image files (if you want to exclude them)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
