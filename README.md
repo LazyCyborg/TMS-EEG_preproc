@@ -1,6 +1,6 @@
 # TMS-EEG Analysis Pipeline Setup
 
-This repository contains a pipeline for analyzing TMS-EEG data using MNE-Python.
+This repository contains some code which is an attempt at analyzing TMS-EEG data using MNE-Python.
 
 ## Prerequisites
 
